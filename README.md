@@ -1,8 +1,12 @@
 # News Article Classification Using Machine Learning and NLP:
-This repository contains Python scripts for text classification of BBC News articles using various machine learning algorithms, including Multinomial Naive Bayes and Gaussian Naive Bayes.
+This repository contains Python scripts for text classification of BBC News articles using various machine learning algorithms, including Multinomial Naive Bayes, Gaussian Naive Bayes, and a custom Naive Bayes classifier.
 
 # Dataset
-The dataset used for this project is the BBC News dataset, which contains news articles categorized into five categories: business, tech, politics, sport, and entertainment. The dataset consists of text data and corresponding category labels.
+The BBC News dataset consists of news articles published by the BBC in 2004-2005, categorized into five categories: business, tech, politics, sport, and entertainment. Each article is labeled with one of these categories. The dataset is balanced, meaning it contains roughly the same number of articles for each category.
+
+Features:
+- Text Data: The main feature of the dataset is the textual content of each news article. This includes headlines, summaries, and main body text.
+- Labels: Each article is labeled with one of the five categories mentioned above.
 
 # Requirements
 Make sure you have the following libraries installed:
