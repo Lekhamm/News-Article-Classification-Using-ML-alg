@@ -23,7 +23,7 @@ naive_bayes_classification.py: This script performs the following tasks:
 - Train Multinomial Naive Bayes and Gaussian Naive Bayes models.
 - Evaluate the models' accuracy and visualize the confusion matrix.
 
-  naive_bayes_classifier.py: This script implements a custom Naive Bayes classifier using a bag-of-words model. It includes the following steps:
+naive_bayes_classifier.py: This script implements a custom Naive Bayes classifier using a bag-of-words model. It includes the following steps:
 - Define the NaiveBayesClassifier class.
 - Train the classifier on the training data.
 - Predict the labels for the test data.
